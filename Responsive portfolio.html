@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education"
+                >Educational Qualifications</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificates">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-center text-white d-flex align-items-center" id="about">
+      <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <h3>G Sai Jayanth | B-Tech Graduate from GPREC | Kurnool</h3>
+        <p>Web Developer | Front-end Designer | Programmer</p>
+      </div>
+    </header>
+
+    <section id="education" class="container mt-5">
+      <h2 class="text-center">Educational Qualifications</h2>
+      <table class="table table-bordered table-striped table-hover text-center">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score/CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B-Tech</td>
+            <td>GPREC, Kurnool</td>
+            <td>2026</td>
+            <td>8.5</td>
+          </tr>
+          <tr>
+            <td>Intermediate</td>
+            <td>Narayana Junior College</td>
+            <td>2022</td>
+            <td>835/1000</td>
+          </tr>
+          <tr>
+            <td>SSC</td>
+            <td>Montessori High School</td>
+            <td>2020</td>
+            <td>586/600</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="skills" class="container mt-5">
+      <h2 class="text-center">SKILLS</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="project-card">
+            Programming Language<br />
+            C,Python,Java
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            Front-end Skills<br />
+            Html,CSS,JavaScript,Bootstrap,JQuery,React js
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            Back-end skills <br />
+            SQL,PHP,Laravel
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="container mt-5">
+      <h2 class="text-center">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="project-card">Responsive Portfolio</div>
+        </div>
+        <div class="col-md-4"><div class="project-card">Weather App</div></div>
+        <div class="col-md-4">
+          <div class="project-card">ToDo List</div>
+        </div>
+      </div>
+    </section>
+    <section id="certificates" class="container mt-5">
+      <h2 class="text-center">Certifications</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert1Modal"
+              >C Language</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert2Modal"
+              >Python</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert3Modal"
+              >Java</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert4Modal"
+              >HTML & CSS</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert5Modal"
+              >JavaScript</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert6Modal"
+              >Bootstrap</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert7Modal"
+              >React</a
+            >
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="project-card text-center">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cert8Modal"
+              >SQL</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal 4 -->
+    <div
+      class="modal fade"
+      id="cert4Modal"
+      tabindex="-1"
+      aria-labelledby="cert4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cert4Label">HTML & CSS Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="certificates/html-css-cert.jpg"
+              alt="HTML CSS Certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div
+      class="modal fade"
+      id="cert5Modal"
+      tabindex="-1"
+      aria-labelledby="cert5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cert5Label">JavaScript Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="certificates/js-cert.jpg"
+              alt="JavaScript Certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div
+      class="modal fade"
+      id="cert6Modal"
+      tabindex="-1"
+      aria-labelledby="cert6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cert6Label">Bootstrap Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="certificates/bootstrap-cert.jpg"
+              alt="Bootstrap Certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div
+      class="modal fade"
+      id="cert7Modal"
+      tabindex="-1"
+      aria-labelledby="cert7Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cert7Label">React Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="certificates/react-cert.jpg"
+              alt="React Certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 8 -->
+    <div
+      class="modal fade"
+      id="cert8Modal"
+      tabindex="-1"
+      aria-labelledby="cert8Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cert8Label">SQL Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="certificates/sql-cert.jpg"
+              alt="SQL Certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="container mt-5">
+      <h2 class="text-center">Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+      <p>Connect with me:</p>
+      <p>Mobile NO: 9502275231</p>
+      <p>Mail Id: saijayanthgangaraju3705@gmail.com</p>
+      <a href="#">LinkedIn</a> | <a href="#">GitHub</a> |
+      <a href="#">Twitter</a>
+    </footer>
+    <style>
+      body {
+        padding-top: 56px;
+        font-family: Arial, sans-serif;
+      }
+      p {
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      header {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.5)),
+          url("header-bg.jpg") no-repeat center center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #01120c; /* Updated text color */
+        text-align: center;
+      }
+      .project-card a {
+        display: block;
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #000;
+        text-decoration: none;
+        padding: 15px;
+      }
+      .project-card a:hover {
+        color: #007bff;
+      }
+
+      form {
+        text-align: center; /* Center-align the button */
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #32cade;
+        border-radius: 5px;
+      }
+
+      button {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        display: inline-block; /* Ensure proper alignment */
+      }
+
+      button:hover {
+        background: #0056b3;
+      }
+
+      table {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      table th {
+        background-color: #343a40;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      table td {
+        background-color: #f8f9fa;
+        padding: 10px;
+      }
+
+      /* Ensure navbar links appear in a row when toggled */
+    </style>
+
+    <script>
+      $(document).ready(function () {
+        $("a.nav-link").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate(
+              { scrollTop: $(hash).offset().top - 56 }, // Adjust offset to prevent hiding
+              800
+            );
+          }
+        });
+
+        $("#contactForm").on("submit", function (event) {
+          event.preventDefault();
+          var name = $("#name").val().trim();
+          var email = $("#email").val().trim();
+          var message = $("#message").val().trim();
+
+          if (name === "" || email === "" || message === "") {
+            alert("All fields are required!");
+          } else {
+            alert("Message sent successfully!");
+            $("#contactForm")[0].reset();
+          }
+        });
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          const offset = 56; // Adjust offset to prevent hiding
+          const topPosition =
+            target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({
+            top: topPosition,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
